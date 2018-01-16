@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.mikescamell.sharedelementtransitions"
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,7 +20,7 @@ android {
 }
 
 ext {
-    supportLibVersion = '25.2.0'
+    supportLibVersion = '26.1.0'
 }
 
 dependencies {
@@ -34,7 +34,7 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile "com.android.support:recyclerview-v7:${supportLibVersion}"
     compile "com.android.support:support-v4:${supportLibVersion}"
-    compile 'com.android.support.constraint:constraint-layout:1.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile "com.android.support:percent:${supportLibVersion}"
     compile "com.android.support:design:${supportLibVersion}"
     testCompile 'junit:junit:4.12'
